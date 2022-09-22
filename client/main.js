@@ -3,6 +3,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import '../imports/startup/accounts-config.js';
 import '../imports/ui/body.js';
 import '../imports/api/tasks.js';
+import '../imports/api/tasks.tests';
 // import './main.html';
 
 Template.hello.onCreated(function helloOnCreated() {
